@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin-top: 10px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+input{
+    display: block;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    outline: none;
+    width: 25vw;
+    height: 25px;
+    padding: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+input:focus{
+    box-shadow: 0 0 4px gainsboro;
+}
+button {
+    height: 40px;
+    padding: 5px;
+    width: 26vw;
+    background-color: rgb(1, 222, 230);
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 0 4px gainsboro;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+button:hover{
+background-color: rgb(11, 178, 184);
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.table-header{
+    display: flex;
+    justify-content: space-between;
+    background-color: beige;
+    margin: 20px;
+    width: 50vw;
+    margin: auto;
+    box-shadow: 0 0 4px gainsboro;
+    border-radius: 5px;
+}
+.row{
+    padding: 10px;
+    margin: 0 20px;
+}
+.table-content{
+    height: auto;
+    width: 50vw;
+    background-color: aquamarine;
+    box-shadow: 0 0 4px gainsboro;
+    border-radius: 5px;
+}
+.table-item{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    background-color: rgb(23, 191, 135);
+    color: white;
+    margin: 3px;
+}
+.cross-btn{
+    height: 22px;
+    padding: 0px;
+    width: 22px;
+    background-color: rgb(230, 250, 250);
+    border: 0;
+    border-radius: 0px;
+    color: black;
+    box-shadow: 0 0 4px gainsboro;
+    cursor: pointer;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    
+}

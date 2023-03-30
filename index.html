@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book List App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Book List App !</h1>
+    <div class="box">
+      <form action="">
+        <input id="book-name"type="text" placeholder="Book Name" />
+        <input id="author" type="text" placeholder="Author" />
+        <input id="ism" type="text" placeholder="ISM Number" />
+        <button id="submit-btn" type="submit">Add Book</button>
+      </form>
+    </div>
+    <div class="table">
+      <div class="table-header">
+        <div class="row">Book Name</div>
+        <div class="row">Author</div>
+        <div class="row">ISM Number</div>
+      </div>
+      <div class="table-content" id="content">
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
